@@ -9,6 +9,7 @@
     width:50%;
   }
   main{
+    height:100%
     padding:240px 50px 220px 50px;
   }
   .main-messages h1{
@@ -37,5 +38,11 @@
   .main-messages h2{
     font-size: 15px;
     letter-spacing:10px;
+  }
+  .facebook{
+    margin-right: 20px;
+  }
+  .twitter{
+    margin-right: 20px;
   }
 }
