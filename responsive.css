@@ -1,0 +1,41 @@
+@media(max-width:1000px){
+  header{
+    height:80px;
+  }
+  .header-lists a{
+    line-height:80px;
+  }
+  .header-lists a{
+    width:50%;
+  }
+  main{
+    padding:220px 50px 200px 50px;
+  }
+  .main-messages h1{
+    font-size: 50px;
+  }
+}
+
+@media(max-width:670px){
+  header{
+    background-color:rgba(255, 255, 255, 0.3);
+    transition:all 1s;
+  }
+  .header-lists a{
+    display:none;
+  }
+  .header-lists span{
+    display: block;
+  }
+  main{
+    padding:200px 50px 200px 50px;
+  }
+  .main-messages h1{
+    font-size: 35px;
+    letter-spacing:10px;
+  }
+  .main-messages h2{
+    font-size: 15px;
+    letter-spacing:10px;
+  }
+}
