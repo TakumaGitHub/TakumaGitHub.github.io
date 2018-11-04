@@ -1,0 +1,69 @@
+main{
+  height:372px;
+  padding:240px 50px 210px 50px;
+  background-image:url(kitchen.jpg);
+  background-size:cover;
+  color:black;
+  text-align:center;
+}
+.main-messages{
+  width:100%;
+  padding:15px;
+  margin:auto;
+}
+.main-messages h1{
+  color:white;
+  margin-top:0px;
+  margin-bottom: 0px;
+  font-size:80px;
+  opacity:1;
+  letter-spacing:20px;
+}
+.main-messages h2{
+  color:white;
+  margin:0px;
+  padding:16.6px;
+  font-size:20px;
+  opacity:1;
+  border-top:1px solid white;
+  letter-spacing:15px;
+}
+
+
+
+.btn{
+  color:white;
+  display:inline-block;
+  opacity:1;
+  border-radius:100px;
+  transition: 1s;
+}
+.btn:hover{
+  opacity:0.5;
+  transition:all 1s;
+}
+.facebook{
+  background-color:#3b5998;
+  margin-right:40px;
+  padding:21px 30px;
+}
+.twitter{
+  background-color:#55acee;
+  margin-right:40px;
+  padding:21px 22px;
+}
+.instagram{
+  background-color:red;
+  padding:21px 24px;
+}
+.btn-wrapper{
+  margin:10px;
+}
+.btn-messages h2{
+  color:white;
+  margin:0px;
+  padding:10px;
+  font-size:18px;
+  opacity:1;
+  letter-spacing:10px;
+}
