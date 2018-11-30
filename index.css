@@ -102,7 +102,7 @@ main{
 /*iPhone用レイアウト*/
 @media(max-width:670px){
   main{
-    padding:140px 0px 20% 0px;
+    padding:140px 0px 10% 0px;
   }
   .main-messages{
     padding-bottom: 0px;
