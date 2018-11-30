@@ -1,12 +1,19 @@
+
+/*inquiryページのレイアウト*/
+
+.inquiry:hover{
+  color:white;
+  background-color:rgba(255, 255, 255, 0.3);
+}
+
 main{
-  height:800px;
-  padding:120px 150px 300px 150px;
+  height:100%;
+  padding:150px 10% 10% 10%;
   background-image:url(kitchen.jpg);
   background-size:cover;
   color:white;
   text-align:center;
 }
-
 .sectioin-title{
   font-size: 60px;
   padding:15px;
@@ -14,19 +21,19 @@ main{
   letter-spacing: 15px;
 }
 .container{
-  height: 870px;
+  height: 900px;
   width: 100%;
   background-color:rgba(255, 255, 255, 0.3);
 }
 .services{
-  padding:85px 70px 50px 70px;
+  padding:8% 7% 5% 7%;
 }
 .inquiry-table{
   width: 100%;
   border-collapse:collapse;
 }
 th{
-  width:;
+  background-color:rgba(255, 255, 255, 0.4);
   font-size: 25px;
   padding: 15px;
   border: 0.5px solid white;
@@ -44,15 +51,12 @@ img{
   width: 80px;
 }
 
-
-
 .inquiry-icons{
-  padding: 50px 100px;
+  padding: 5% 10%;
 }
 .inquiry-icon1, .inquiry-icon2, .inquiry-icon3, .inquiry-icon4, .inquiry-icon5{
   float: left;
   width: 20%;
-
 }
 .inquiry-icon6{
   clear: left;
@@ -61,32 +65,71 @@ img{
   float: left;
   width: 20%;
 }
+.size{
+  font-size: 3em;
+}
 
 
-/*
-.service-picture1{
-  padding: 50px 0px 0px 50px;
-  width:45%;
-  float: left;
+
+
+
+/*iPad用レイアウト*/
+@media(max-width:1000px){
+  .inquiry{
+    color:black;
+    background-color:rgba(255, 255, 255, 1);
+  }
+  .sectioin-title{
+    font-size: 35px;
+    letter-spacing: 10px;
+  }
+  .container{
+    height: 800px;
+  }
+  th{
+    font-size: 20px;
+  }
+  td{
+    font-size: 15px;
+  }
+  p{
+    font-size: 10px;
+  }
 }
-.service-picture2{
-  padding:50px 50px 0px 0px;
-  width:45%;
-  float:left;
+
+/*iPhone用レイアウト*/
+@media(max-width:670px){
+  .sectioin-title{
+    margin:0px 30px 0px 30px;
+  }
+  .container{
+    height: 500px;
+  }
+  th{
+    font-size: 10px;
+    padding: 5px;
+    border: 0.5px solid white;
+  }
+  td{
+    font-size: 5px;
+    padding: 5px;
+    border: 0.5px solid white;
+  }
+  .pics{
+    padding:5px;
+  }
+  img{
+    height: 25px;
+    width: 40px;
+  }
+  .inquiry-icons{
+    padding: 5% 5%;
+  }
+  .size{
+    font-size: 2em;
+  }
+  p{
+    font-size: 5px;
+    width: 95%;
+  }
 }
-.service-picture3{
-  padding:50px 0px 50px 50px;
-  width:45%;
-  clear: left;
-  float: left;
-}
-.service-picture4{
-  padding: 50px 50px 50px 0px;
-  width:45%;
-  float:left;
-}
-img{
-  height: 250px;
-  width: 400px;
-}
-*/
