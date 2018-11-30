@@ -1,4 +1,6 @@
-/*共通*/
+
+/*共通のレイアウト*/
+
 body{
   font-family: serif;
   margin:0;
@@ -10,10 +12,8 @@ li{
   list-style:none;
 }
 header{
-  height:100px;
+  height:120px;
   width:100%;
-  /*background:rgba(34, 49, 52, 0.9);*/
-
   position: fixed;
   top:0px;
   z-index: 10;
@@ -21,14 +21,12 @@ header{
 .header-lists{
   width:100%;
 }
-.header-lists a{
+.home, .service, .inquiry, .contact{
   font-size: 20px;
   width:25%;
-  /*width:200px;*/
-  line-height:100px;
+  line-height:120px;
   padding:0px 0px;
   margin:0px 0px;
-  /*margin:0px 30px;*/
 
   text-align: center;
   float: left;
@@ -54,80 +52,30 @@ header{
   color:black;
   background-color:rgba(255, 255, 255, 1);
 }
-.header-lists span{
-  color: white;
-  float: right;
-  font-size: 40px;
-  padding: 20px 20px;
-  display:none;
-  transition:all 1s;
-}
-.header-lists span:hover{
-  color:black;
-}
 
-/*main{
-  height:372px;
-  padding:250px 50px 200px 50px;
+main{
   background-image:url(kitchen.jpg);
   background-size:cover;
-  color:black;
-  text-align:center;
-}
-.main-messages{
-  width:100%;
-  padding:15px;
-  margin:auto;
-}
-.main-messages h1{
-  color:white;
-  margin-top:0px;
-  margin-bottom: 0px;
-  font-size:80px;
-  opacity:1;
-  letter-spacing:20px;
-}
-.main-messages h2{
-  color:white;
-  margin:0px;
-  padding:16.6px;
-  font-size:20px;
-  opacity:1;
-  border-top:1px solid white;
-  letter-spacing:15px;
+  background-attachment: fixed;
 }
 
 
 
-.btn{
-  color:white;
-  display:inline-block;
-  opacity:1;
-  border-radius:100px;
-}
-.btn:hover{
-  opacity:0.5;
-  transition:all 1s;
-}
-.facebook{
-  background-color:#3b5998;
-  margin-right:40px;
-  padding:20px 30px;
-}
-.twitter{
-  background-color:#55acee;
-  margin-right:40px;
-  padding:20px 22px;
-}
-.instagram{
-  background-color:red;
-  padding:20px 25px;
-}
-.btn-wrapper{
-  margin:10px;
-}
-.fab{
-  margin-right:0px;
+
+
+/*iPad用レイアウト*/
+@media(max-width:1000px){
 }
 
-*/
+/*iPhone用レイアウト*/
+@media(max-width:670px){
+  header{
+    height:70px;
+  }
+  .header-lists a{
+    font-size: 15px;
+    width:50%;
+    line-height:70px;
+    transition:all 0.5s;
+  }
+}
