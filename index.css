@@ -102,15 +102,18 @@ main{
 /*iPhone用レイアウト*/
 @media(max-width:670px){
   main{
-    padding:45% 0px 20% 0px;
+    padding:50% 0px 20% 0px;
+  }
+  .main-messages{
+    padding-bottom: 0px;
   }
   .main-messages h1{
     font-size: 35px;
     letter-spacing:10px;
   }
   .main-messages h2{
-    font-size: 20px;
-    letter-spacing:3px;
+    font-size: 17px;
+    letter-spacing:7px;
   }
   .btn-messages h2{
     font-size: 20px;
