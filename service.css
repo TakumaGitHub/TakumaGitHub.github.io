@@ -66,7 +66,7 @@ img{
     letter-spacing: 10px;
   }
   .container{
-    height: 750px;
+    height: 650px;
   }
   .service-picture1{
     padding: 10% 0% 0% 5%;
@@ -79,6 +79,9 @@ img{
   }
   .service-picture4{
     padding: 5% 5% 10% 0%;
+  }
+  p{
+    font-size: 13px;
   }
 }
 
