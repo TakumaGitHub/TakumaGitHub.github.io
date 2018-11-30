@@ -1,12 +1,19 @@
+
+/*serviceページのレイアウト*/
+
+.service:hover{
+  color:white;
+  background-color:rgba(255, 255, 255, 0.3);
+}
+
 main{
-  height:800px;
-  padding:120px 150px 300px 150px;
+  height:100%;
+  padding:150px 10% 10% 10%;
   background-image:url(kitchen.jpg);
   background-size:cover;
   color:white;
   text-align:center;
 }
-
 .sectioin-title{
   font-size: 60px;
   padding:15px;
@@ -19,27 +26,82 @@ main{
   background-color:rgba(255, 255, 255, 0.3);
 }
 .service-picture1{
-  padding: 80px 0px 0px 50px;
+  padding: 5% 0% 0% 5%;
   width:45%;
   float: left;
 }
 .service-picture2{
-  padding:80px 50px 0px 0px;
+  padding:5% 5% 0% 0%;
   width:45%;
   float:left;
 }
 .service-picture3{
-  padding:50px 0px 80px 50px;
+  padding:5% 0% 5% 5%;
   width:45%;
   clear: left;
   float: left;
 }
 .service-picture4{
-  padding: 50px 50px 80px 0px;
+  padding: 5% 5% 5% 0%;
   width:45%;
   float:left;
 }
 img{
-  height: 250px;
-  width: 400px;
+  height: 75%;
+  width: 75%;
+}
+
+
+
+
+
+/*iPad用レイアウト*/
+@media(max-width:1000px){
+  .service{
+    color:black;
+    background-color:rgba(255, 255, 255, 1);
+  }
+  .sectioin-title{
+    font-size: 35px;
+    letter-spacing: 10px;
+  }
+  .container{
+    height: 600px;
+  }
+}
+
+/*iPhone用レイアウト*/
+@media(max-width:670px){
+  .sectioin-title{
+    margin:0px 30px 0px 30px;
+  }
+  .container{
+    height: 1100px;
+  }
+  p{
+    font-size: 12px;
+  }
+  .service-picture1{
+    padding: 10% 5% 5% 5%;
+    width:90%;
+    float: left;
+  }
+  .service-picture2{
+    padding:5%;
+    width:90%;
+    clear:left;
+    float:left;
+  }
+  .service-picture3{
+    padding:5%;
+    width:90%;
+    clear: left;
+    float: left;
+  }
+  .service-picture4{
+    padding: 5% 5% 10% 5%;
+    width:90%;
+    clear:left;
+    float:left;
+  }
 }
