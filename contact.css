@@ -1,12 +1,19 @@
+
+/*contactページのレイアウト*/
+
+.contact:hover{
+  color:white;
+  background-color:rgba(255, 255, 255, 0.3);
+}
+
 main{
-  height:405px;
-  padding:120px 150px 300px 150px;
+  height:100%;
+  padding:150px 10% 12% 10%;
   background-image:url(kitchen.jpg);
   background-size:cover;
   color:white;
   text-align:center;
 }
-
 .sectioin-title{
   font-size: 60px;
   padding:15px;
@@ -14,16 +21,14 @@ main{
   letter-spacing: 15px;
 }
 .container{
-  height: 420px;
-  width: 100%;
+  padding: 10% 70px 10% 70px;
   background-color:rgba(255, 255, 255, 0.3);
 }
-.services{
-  padding:85px 70px 50px 70px;
-}
 h1{
+  font-size: 40px;
+  margin-top: 0%;
   margin-bottom: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   letter-spacing: 10px;
   border-bottom:1px solid white;
 }
@@ -43,28 +48,93 @@ h1{
 }
 .facebook{
   background-color:#3b5998;
-  margin-right:40px;
+  margin-right:5%;
   padding:21px 30px;
 }
 .twitter{
   background-color:#55acee;
-  margin-right:40px;
+  margin-right:5%;
   padding:21px 22px;
 }
 .instagram{
   background-color:red;
-  margin-right:40px;
+  margin-right:5%;
   padding:21px 24px;
 }
 .ameba{
   position: relative;
   top:5px;
   height: 32px;
-  background-color:#00AA00;
+  background-color:rgba(0, 180, 0);
   padding:22px 22px;
 }
-
 .ameba-logo{
   height: 32px;
   width: 32px;
+}
+
+
+
+
+
+/*iPad用レイアウト*/
+@media(max-width:1000px){
+  .contact{
+    color:black;
+    background-color:rgba(255, 255, 255, 1);
+  }
+  main{
+    padding:150px 10% 30% 10%;
+  }
+  .sectioin-title{
+    font-size: 35px;
+    letter-spacing: 10px;
+  }
+  .container{
+    padding: 10% 70px 10% 70px;
+  }
+  h1{
+    font-size: 25px;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+  }
+}
+
+/*iPhone用レイアウト*/
+@media(max-width:670px){
+  main{
+    padding:150px 5% 40% 5%;
+  }
+  .sectioin-title{
+    margin:0px 30px 0px 30px;
+  }
+  /*.container{
+    height: 400px;
+  }*/
+  .container{
+    padding:20% 5% 20% 5%;
+  }
+  h1{
+    font-size: 20px;
+    margin-bottom: 10%;
+    padding-bottom: 10%;
+  }
+  .btn{
+    border-radius:15px;
+  }
+  .facebook{
+    margin-right:3%;
+    padding:15px 24px;
+  }
+  .twitter{
+    margin-right:3%;
+    padding:15px 16px;
+  }
+  .instagram{
+    margin-right: 3%;
+    padding:15px 18px;
+  }
+  .ameba{
+    padding:16px 16px;
+  }
 }
