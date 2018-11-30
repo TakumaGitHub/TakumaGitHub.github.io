@@ -80,11 +80,14 @@ img{
     background-color:rgba(255, 255, 255, 1);
   }
   .sectioin-title{
-    font-size: 35px;
+    font-size: 40px;
     letter-spacing: 10px;
   }
   .container{
     height: 800px;
+  }
+  .services{
+    padding:10% 7% 10% 7%;
   }
   th{
     font-size: 20px;
@@ -100,6 +103,7 @@ img{
 /*iPhone用レイアウト*/
 @media(max-width:670px){
   .sectioin-title{
+    font-size: 35px;
     margin:0px 30px 0px 30px;
   }
   .container{
@@ -111,12 +115,12 @@ img{
     border: 0.5px solid white;
   }
   td{
-    font-size: 5px;
-    padding: 5px;
+    font-size: 10px;
+    padding: 0px;
     border: 0.5px solid white;
   }
   .pics{
-    padding:5px;
+    padding:2% 0% 0% 0%;
   }
   img{
     height: 25px;
@@ -129,7 +133,7 @@ img{
     font-size: 2em;
   }
   p{
-    font-size: 5px;
+    font-size: 7px;
     width: 95%;
   }
 }
