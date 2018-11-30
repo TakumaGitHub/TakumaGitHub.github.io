@@ -5,6 +5,18 @@ body{
   font-family: serif;
   margin:0;
 }
+body::before {
+  content: "";
+  background-image:url(kitchen.jpg);
+  background-size: cover;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
 a{
   text-decoration: none;
 }
@@ -52,13 +64,13 @@ header{
   color:black;
   background-color:rgba(255, 255, 255, 1);
 }
-
+/*
 main{
   background-image:url(kitchen.jpg);
   background-size:cover;
   background-attachment: fixed;
 }
-
+*/
 
 
 
