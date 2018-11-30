@@ -62,24 +62,37 @@ img{
     background-color:rgba(255, 255, 255, 1);
   }
   .sectioin-title{
-    font-size: 35px;
+    font-size: 40px;
     letter-spacing: 10px;
   }
   .container{
-    height: 600px;
+    height: 750px;
+  }
+  .service-picture1{
+    padding: 10% 0% 0% 5%;
+  }
+  .service-picture2{
+    padding: 10% 5% 0% 0%;
+  }
+  .service-picture3{
+    padding:5% 0% 10% 5%;
+  }
+  .service-picture4{
+    padding: 5% 5% 10% 0%;
   }
 }
 
 /*iPhone用レイアウト*/
 @media(max-width:670px){
   .sectioin-title{
+    font-size: 35px;
     margin:0px 30px 0px 30px;
   }
   .container{
-    height: 1100px;
+    height: 1050px;
   }
   p{
-    font-size: 12px;
+    font-size: 13px;
   }
   .service-picture1{
     padding: 10% 5% 5% 5%;
