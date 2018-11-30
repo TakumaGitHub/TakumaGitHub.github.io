@@ -23,28 +23,31 @@ main{
 .container{
   height: 870px;
   width: 100%;
-  background-color:rgba(255, 255, 255, 0.3);
 }
 .service-picture1{
   padding: 5% 0% 0% 5%;
   width:45%;
   float: left;
+  background-color:rgba(255, 255, 255, 0.3);
 }
 .service-picture2{
   padding:5% 5% 0% 0%;
   width:45%;
   float:left;
+  background-color:rgba(255, 255, 255, 0.3);
 }
 .service-picture3{
   padding:5% 0% 5% 5%;
   width:45%;
   clear: left;
   float: left;
+  background-color:rgba(255, 255, 255, 0.3);
 }
 .service-picture4{
   padding: 5% 5% 5% 0%;
   width:45%;
   float:left;
+  background-color:rgba(255, 255, 255, 0.3);
 }
 img{
   height: 75%;
@@ -69,7 +72,7 @@ img{
     letter-spacing: 10px;
   }
   .container{
-    height: 650px;
+    height: 750px;
   }
   .service-picture1{
     padding: 10% 0% 0% 5%;
@@ -78,13 +81,17 @@ img{
     padding: 10% 5% 0% 0%;
   }
   .service-picture3{
-    padding:5% 0% 10% 5%;
+    padding:5% 0% 7% 5%;
   }
   .service-picture4{
-    padding: 5% 5% 10% 0%;
+    padding: 5% 5% 7% 0%;
+  }
+  img{
+    height: 85%;
+    width: 85%;
   }
   p{
-    font-size: 13px;
+    font-size: 15px;
   }
 }
 
