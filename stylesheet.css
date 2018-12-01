@@ -7,7 +7,7 @@ body{
 }
 body::before {
   content: "";
-  background-image:url(kitchen.jpg);
+  background-image:url(fireplace.jpg);
   background-size: cover;
   display: block;
   position: fixed;
