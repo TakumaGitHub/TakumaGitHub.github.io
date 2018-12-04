@@ -44,33 +44,27 @@ header{
   float: left;
   display:block;
 
-  color:white;
-  background-color:rgba(255, 255, 255, 0.3);
+  color:black;
+  background-color:rgba(255, 255, 255, 0.9);
   transition:all 1s;
 }
 .home:hover{
-  color:black;
-  background-color:rgba(255, 255, 255, 1);
+  color:white;
+  background-color:rgba(255, 255, 255, 0.3);
 }
 .service:hover{
-  color:black;
-  background-color:rgba(255, 255, 255, 1);
+  color:white;
+  background-color:rgba(255, 255, 255, 0.3);
 }
 .inquiry:hover{
-  color:black;
-  background-color:rgba(255, 255, 255, 1);
+  color:white;
+  background-color:rgba(255, 255, 255, 0.3);
 }
 .contact:hover{
-  color:black;
-  background-color:rgba(255, 255, 255, 1);
+  color:white;
+  background-color:rgba(255, 255, 255, 0.3);
 }
-/*
-main{
-  background-image:url(kitchen.jpg);
-  background-size:cover;
-  background-attachment: fixed;
-}
-*/
+
 
 
 
