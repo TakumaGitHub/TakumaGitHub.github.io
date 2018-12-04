@@ -9,8 +9,6 @@
 main{
   height:100%;
   padding:150px 10% 10% 10%;
-  /*background-image:url(kitchen.jpg);
-  background-size:cover;*/
   color:white;
   text-align:center;
 }
@@ -68,7 +66,10 @@ img{
 .size{
   font-size: 3em;
 }
-
+p{
+  font-size: 15px;
+  padding-bottom: 15px;
+}
 
 
 
