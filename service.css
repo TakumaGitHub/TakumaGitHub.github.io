@@ -3,14 +3,12 @@
 
 .service:hover{
   color:white;
-  background-color:rgba(255, 255, 255, 0.3);
+  background-color:rgba(255, 255, 255, 0.8);
 }
 
 main{
   height:100%;
   padding:150px 10% 10% 10%;
-  /*background-image:url(kitchen.jpg);
-  background-size:cover;*/
   color:white;
   text-align:center;
 }
