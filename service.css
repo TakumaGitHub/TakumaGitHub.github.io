@@ -1,11 +1,6 @@
 
 /*serviceページのレイアウト*/
 
-.service:hover{
-  color:white;
-  background-color:rgba(255, 255, 255, 0.8);
-}
-
 main{
   height:100%;
   padding:150px 10% 10% 10%;
@@ -61,7 +56,6 @@ img{
 /*iPad用レイアウト*/
 @media(max-width:1000px){
   .service{
-    color:black;
     background-color:rgba(255, 255, 255, 1);
   }
   main{
