@@ -1,4 +1,4 @@
-## WELCOME TO OUR SHAREHOUSE
+## NEW LIFE, NEW BEGINNINGS.
 　サイトへは<a href="https://takumagithub.github.io/">こちら</a>をクリック
 
 ## 概要
