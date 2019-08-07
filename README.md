@@ -1,4 +1,4 @@
-## Welcome to our sharehouse
+## WELCOME TO OUR SHAREHOUSE
 　サイトへは<a href="https://takumagithub.github.io/">こちら</a>をクリック
 
 ## 概要
